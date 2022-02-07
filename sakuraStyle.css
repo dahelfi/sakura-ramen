@@ -1,0 +1,977 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.firstSquare {
+
+    height: 100vh;
+
+
+
+    background-image: url(/Bilder/bgr1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.whiteBackground {
+    
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sandyBackground {
+
+    background-size: cover;
+
+    background-image: url(/Bilder/background.jpg);
+
+}
+
+.whiteBackground2 {
+    
+
+    background-color: white;
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100px;
+    margin-right: 50px;
+
+
+
+
+
+}
+
+.headBarAndContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bildBlume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50;
+    margin-top: 15;
+
+    
+    margin-top: 40;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 30px;
+
+    margin-right: 40;
+
+    height: 45px;
+    
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 40;
+    border: 1px solid white;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+.contact:hover{
+    background-color: rgb(235, 90, 90);
+    
+
+}
+
+.phoneImage {
+    margin-left: 10;
+    margin-right: 10;
+    display: flex;
+    justify-content: center;
+    width: 30;
+    height: 30;
+}
+
+.phoneNumber {
+
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 10;
+    align-items: center;
+    text-decoration: none;
+}
+
+.phoneNumber a {
+    text-decoration: none;
+}
+
+.ueberschrift1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+
+    margin-top: 100;
+
+
+
+
+}
+
+.menu {
+    margin-left: 25;
+    margin-right: 25;
+}
+
+.locations {
+    margin-left: 25;
+    margin-right: 25;
+
+}
+
+.about {
+    margin-left: 25;
+    margin-right: 25;
+}
+
+.headBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 210;
+
+
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40;
+
+}
+
+.headBar a {
+
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+.headBar a:hover {
+    text-decoration: underline;
+}
+
+.ueberschrift11 {
+   
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.ueberschrift12 {
+    
+    font-size: 35px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.howToOrder {
+    
+
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.howToOrderText {
+    color: darkred;
+}
+
+.bestellAnleitung {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100;
+    
+
+}
+
+.step1 {
+    margin-top: 12;
+    margin-left: 80;
+    margin-right: 80;
+   
+
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+
+
+.step1Text1 {
+    margin-top: 40;
+
+    background-color: white;
+    
+    
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+
+
+}
+
+.step1Text2 {
+
+
+    background-color: white;
+    
+    
+    font-size: 25px;
+    text-align: center;
+    
+
+
+}
+
+.step2 {
+    margin-left: 80;
+    margin-right: 80;
+
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+
+
+
+.step2Text1 {
+    margin-top: 40;
+
+    background-color: white;
+    
+    height: max-content;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+
+
+}
+
+.step2Text2 {
+
+
+    background-color: white;
+   
+    
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.step3 {
+    
+    margin-left: 80;
+    margin-right: 80;
+    
+
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+
+
+}
+
+
+
+
+
+.step3Text1 {
+    margin-top: 40;
+
+    background-color: white;
+    
+    
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+
+
+}
+
+.step3Text2 {
+
+
+    background-color: white;
+    
+    
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+
+.ourMenu {
+    
+
+
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.ourMenuText {
+    color: darkred;
+    font-family: 'Economica', sans-serif;
+}
+
+.menuOverview {
+
+
+
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.menu1 {
+    display: flex;
+
+    justify-content: space-between;
+
+
+
+
+}
+
+
+
+.informationMenu1 {
+
+
+    width: 480;
+
+    height: 350;
+
+    margin-left: 200;
+    
+
+
+
+}
+
+.headlineMenu1 {
+    margin-top: 100;
+   
+
+    font-size: 38px;
+    font-family: 'Economica', sans-serif;
+
+}
+
+.priceMenu1 {
+
+    width: 407;
+    height: 150;
+
+
+    display: flex;
+
+
+    justify-content: space-between;
+    margin-bottom: 200;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.priceMenu1Name {
+    width: 270;
+    height: 180;
+
+
+}
+
+.priceMenu1Number {
+
+    width: 270;
+    height: 180;
+
+
+}
+
+.menu2 {
+
+    display: flex;
+
+
+    justify-content: space-between;
+
+}
+
+
+
+.informationMenu2 {
+
+
+    width: 480;
+
+    height: 350;
+    margin-right: 100;
+
+
+
+}
+
+
+.headlineMenu2 {
+    margin-top: 100;
+
+
+    font-size: 38px;
+    font-family: 'Economica', sans-serif;
+
+}
+
+.priceMenu2 {
+
+    width: 407;
+    height: 150;
+
+
+    display: flex;
+
+
+    justify-content: space-between;
+    margin-bottom: 200;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.priceMenu2Name {
+    width: 270;
+    height: 180;
+
+
+}
+
+.priceMenu2Number {
+
+    width: 270;
+    height: 180;
+
+
+}
+
+
+.menu3 {
+    display: flex;
+
+
+    margin-bottom: 100;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+
+.informationMenu3 {
+
+    margin-left: 200;
+
+
+    width: 480;
+
+    height: 350;
+
+
+
+}
+
+.headlineMenu3 {
+    margin-top: 100;
+    
+
+    font-size: 38px;
+    font-family: 'Economica', sans-serif;
+
+}
+
+.imageMenue3 {
+    margin-right: 40;
+}
+
+.priceMenu3 {
+
+    width: 407;
+    height: 150;
+
+
+    display: flex;
+
+
+    justify-content: space-between;
+    margin-bottom: 200;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.priceMenu3Name {
+    width: 270;
+    height: 180;
+
+
+}
+
+.priceMenu3Number {
+
+    width: 270;
+    height: 180;
+
+
+}
+
+
+.findUsInfo {
+
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 33px;
+}
+
+.findUsText {
+    display: flex;
+    justify-content: center;
+    
+    color: darkred;
+
+    
+    
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.findUsAdress {
+
+    
+
+
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 50;
+
+}
+
+.findUsAdressImage {
+    margin-right: 15;
+    width: 30;
+    height: 50;
+
+}
+
+.gmaps {
+    height: 350px;
+    
+    width: 100%;
+}
+
+.findUsAdressAdress {
+    margin-top: 10;
+    font-size: 33px;
+    margin-left: 15;
+
+}
+
+.end {
+    margin-top: 30;
+
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.socialMediaLogo {
+
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+
+.facebook {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+
+
+}
+
+.instagram {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+
+}
+
+.unbekannt {
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+
+@media(max-width: 1000px){
+    h1{
+        font-size: 4em ;
+        
+
+        
+    }
+
+    p{
+        font-size: 4em !important;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
+    span{
+        font-size: 3em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+
+    .bildBlumeBlume{
+        width: 150;
+       
+    }
+
+    .phoneImage{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .phoneNumber{
+        font-size: 70;
+    }
+
+    .contact{
+        padding: 25px;
+        
+    }
+
+    .headBarAndContact{
+        display: flex;
+        align-items: center;
+        height: 180px;
+    }
+
+      
+
+    .hide-mobile{
+        display: none;
+
+    }
+
+    .ueberschrift1{
+        display: flex;
+        align-items: baseline;
+        text-align: center;
+        justify-content: center;
+        margin-top: 600px;
+    }
+
+    .bestellAnleitung{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .step2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .step3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu1{
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+    .informationMenu1{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+
+
+    }
+
+    .priceMenu1{
+        display: flex;
+        text-align: center !important;
+
+    }
+
+    .priceMenu1Name{
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+    }
+
+    .priceMenu1Number{
+        text-align: center !important;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .menu1{
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+        margin-bottom: 200;
+    }
+
+    .informationMenu1{
+        margin-top: 50;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+
+
+    }
+
+    .priceMenu1{
+        display: flex;
+        text-align: center !important;
+
+    }
+
+    .priceMenu1Name{
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+    }
+
+    .priceMenu1Number{
+        text-align: center !important;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .menu2{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center !important;
+        margin-bottom: 200;
+    }
+
+    .informationMenu2{
+        margin-top: 50;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-right: 0 !important;
+        text-align: center !important;
+
+
+    }
+
+    .priceMenu2{
+        display: flex;
+        text-align: center !important;
+
+    }
+
+    .headlineMenu2{
+        text-align: center !important;
+
+    }
+
+    .priceMenu2Name{
+        display: flex;
+        justify-content: center !important;
+        
+    }
+
+    .priceMenu2Number{
+        
+        display: flex !important;
+        justify-content: center !important;
+
+    }
+
+
+    .menu3{
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+        margin-bottom: 200;
+    }
+
+    .informationMenu3{
+        margin-top: 50;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+        
+
+
+    }
+
+    .priceMenu3{
+        display: flex;
+        text-align: center !important;
+
+    }
+
+    .priceMenu3Name{
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+    }
+
+    .priceMenu3Number{
+        text-align: center !important;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mobile-TextBig{
+        font-size: 3em;
+    }
+
+    .end{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .gmaps{
+        height: 800px;
+    }
+
+    .socialMediaLogo{
+        margin-top: 100;
+        display: flex;
+        justify-content: center;
+    }
+
+    .endImage{
+        display: flex;
+        justify-content: center;
+        margin-top: 100;
+        margin-bottom: 100;
+
+    }
+
+    
+    
+}
